@@ -1,0 +1,306 @@
+.sun{
+    background-color: rgb(230, 246, 246);
+    color: black;
+}
+.moon{
+    background-color: black;
+    color: white;
+}
+
+.sun-icon{
+color:#9197B3;
+padding-top:37px;
+}
+
+.box{
+    /* position: relative; */
+    background-color: rgb(230, 246, 246);
+    bottom: 50px;
+    overflow-x: hidden;
+}
+.form{
+    border-radius:10px;
+    transition: all 0.3s linear;
+}
+.active{
+    transform: translate(-200%);
+    transition: all 0.3s linear;
+}
+.hello{
+    margin-top: 41px;
+}
+
+.navv{
+    margin-left: 220px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 0px 20px;
+    max-width: 1050px;
+}
+
+.moonn{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.moon-icon{
+margin-left: 20px;
+margin-top:41px ;
+color: #9197B3;
+
+}
+
+.bolim{
+    margin-left: 70px;
+    max-width: 1600px;
+    width: 100%;
+}
+
+
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.box-1{
+    margin-left: 240px;
+    max-width: 1020px;
+    padding: 30px 10px;
+    background:#fff;
+    border-radius:30px;
+    box-shadow:0px 10px 60px rgba(226,236,249,0.5);
+    margin-top: 40px;
+}
+
+
+
+.meny-i{
+    margin-top: 62px;
+    width:10px;
+    margin-left: 10px;
+}
+
+
+.box-item{
+    display: flex;
+    gap: 1.25rem;
+}
+.box-icon__radius{
+    width: 89px;
+    height: 89px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 25px;
+    background: linear-gradient(201.18deg, #D3FFE7 3.14%, #EFFFF6 86.04%);
+}
+.box-icon__radius-1{
+    width: 89px;
+    height: 89px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 25px;
+    background: linear-gradient(201.18deg, #FFA3CF 3.14%, #FFD5F3 86.04%);
+}
+.box-icon__radius i{
+    font-size: 35px;
+    color:#00AC4F;
+}
+.box-icon__radius-1{
+    font-size: 35px;
+    color:#DF0404;
+}
+.box-span{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+}
+.box-text{
+    color:#acacac;
+}
+.form-control{
+border: none;
+height: 50px;
+width: 50px;
+}
+.form-select{
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+}
+
+
+
+.hamma{
+    margin-left: 310px;
+    margin-top: 35px;
+box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+background-color: white;
+border-radius: 10px;
+}
+
+
+
+
+
+.meny{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 275px;
+    height:100vh;
+    background-color: #ffffff;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.menu{
+    position:relative;
+    background-color: white;
+    align-items: center;
+    gap: 20px;
+    margin-left: 15px;
+    margin-top: 37px;
+}
+.menu h1{
+    left: 40px;
+    top: 34px;
+}
+.meny-icon button{
+    border: none;
+    display: flex;
+    background-color: white;
+    width: 270px;
+}
+
+
+
+.board h4{
+    color: #9197B3;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.board h3{
+    color: #9197B3;
+    padding-top: 10px;
+    padding-left: 60px;
+}
+
+.board-1{
+margin-left:26px;
+}
+
+.board-3{
+    margin-left:-5px;
+}
+
+.board-4{
+    margin-left: 5px;
+}
+
+.board-5{
+    margin-left: 40px;
+}
+
+.user{
+    color: #9197B3;
+    width: 20px;
+    padding-top:48px;
+    margin-left: 9px;
+
+}
+
+.user-1{
+    padding-top:26px;
+}
+
+.user-2{
+    padding-top: 30px;
+}
+.user-3{
+    padding-top: 28px;
+}
+
+.menu-subbox{
+    z-index: -1;
+}
+
+
+
+
+.box-meny{
+top: 0;
+left: 0;
+width: 10px;
+height:100vh;
+background-color: #ffffff;
+border-radius: 10px;
+z-index: 1;
+}
+
+
+
+
+.save-btn{
+    margin-top:200px;
+    margin-bottom:50px;
+    margin-left: 350px;
+    width: 108px;
+    height: 31.42px;  
+    background: #5A55D2;
+    box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
+    border-radius: 8px;
+
+}
+
+.save-btn{
+    border: none;
+}
+
+
+
+.status-btn{
+    width: 84.21px;
+    height: 29px;
+    background: rgba(22, 192, 152, 0.38);
+border: 1px solid #00B087;
+border-radius: 4px;
+}
+
+.status-emas{
+width: 80px;
+height: 29px;
+background: #FFC5C5;
+border: 1px solid #DF0404;
+border-radius: 4px;
+}
+
+
+
+.active_btn{
+    width: 84.21px;
+    height: 29px;    
+    color: #008767;
+    background: rgba(22, 192, 152, 0.38);
+    border: 1px solid #00B087;
+    border-radius: 4px;
+}
+
+.inactive_btn{
+    width: 80px;
+    height: 29px;    
+    background: #FFC5C5;
+    border: 1px solid #DF0404;
+    border-radius: 4px;
+    color: #DF0404;
+  
+}
